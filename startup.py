@@ -48,7 +48,7 @@ class BlenderLauncher(SoftwareLauncher):
     EXECUTABLE_TEMPLATES = {
         "darwin": [
             "$BLENDER_BIN_DIR/Blender",
-            "/Library/Application Support/Blender.app/Contents/MacOS/Blender",
+            "/Applications/Blender.app/Contents/MacOS/Blender",
         ],
         "win32": [
             "$BLENDER_BIN_DIR/blender.exe",
